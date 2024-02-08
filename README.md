@@ -15,5 +15,5 @@ Quantum Monte Carlo Lottery Algorithm
 项目完全开源且免费，但我们欢迎并感激任何形式的捐赠。您的支持将直接用于进一步研究基于真实量子计算机的VQE（变分量子本征求解器）算法及其他先进量子算法。
 
 捐赠方式
-微信号: [您的微信号]
+请直接微信支付或者支付宝支付: 
 ![image](https://github.com/crystal-tensor/lotty/assets/29765585/3974e661-0377-4204-887c-95ca09a8ebe0)

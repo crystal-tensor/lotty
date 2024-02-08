@@ -26,7 +26,7 @@ Quantum Monte Carlo Lottery Algorithm
 
 捐赠方式
 
-请直接微信支付或者支付宝支付: 
+支持微信方式和支付宝方式: 
 
 ![image](https://github.com/crystal-tensor/lotty/assets/29765585/3974e661-0377-4204-887c-95ca09a8ebe0)
 

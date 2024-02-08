@@ -24,6 +24,21 @@ Quantum Monte Carlo Lottery Algorithm
 
 项目完全开源且免费，但我们欢迎并感激任何形式的捐赠。您的支持将直接用于进一步研究基于真实量子计算机的VQE（变分量子本征求解器）算法及其他先进量子算法。
 
+如何使用：
+
+代码复制到自己的电脑，在linux或者macos下运行代码：
+
+pyhton alloy61.py
+
+注意：
+
+1：修改需要预测的总数量，在下面的代码中
+print("预测销售总数：", num_draws_lucky)
+lottery_draws = generate_lottery_numbers_qmc_parallel(10000)
+把num_draws_lucky复制后替换10000。num_draws_lucky数是程序预测的每次开奖的总销售彩票数量，可根据情况自己调整。
+
+2：alloy61.py是单核cpu计算，计算一次预计要17天才完成一次。
+
 捐赠方式
 
 支持微信方式和支付宝方式: 

@@ -41,9 +41,8 @@ lottery_draws = generate_lottery_numbers_qmc_parallel(10000)
 
 2：alloy61.py是单核cpu计算，计算一次预计要17天才完成一次。需要并行计算源码的需要单独付费，并行计算需要12-20小时计算完成，根据各自电脑的配置不同计算时间会有所差异。
 
-捐赠方式
+捐赠方式：可联系我本人微信：765366096
 
-支持微信方式和支付宝方式(在页面最末尾): 
 Quantum Monte Carlo Lottery Algorithm
 
 Introduction: This project showcases a lottery number generation and prediction method based on the quantum Monte Carlo algorithm. This algorithm combines the advanced concepts of quantum computing with traditional random number generation methods, aiming to explore the potential of quantum computing in everyday applications.
@@ -83,13 +82,7 @@ Replace 10000 with num_draws_lucky after copying. num_draws_lucky is the program
 
 2: alloy61.py is for single-core CPU computation, and it is expected to take 17 days to complete one calculation. Parallel computation source code requires separate payment, and parallel computation takes 12-20 hours to complete, with varying times based on individual computer configurations.
 
-Donation Methods:
+Methods of donation: You can contact me personally on WeChat: 765366096
 
-We support donation methods via WeChat and Alipay.
 
-![image](https://github.com/crystal-tensor/lotty/assets/29765585/3974e661-0377-4204-887c-95ca09a8ebe0)
-
-支付宝支付：
-
-![image](https://github.com/crystal-tensor/lotty/assets/29765585/c3b06282-316d-46d6-b82d-1d36557615bc)
 

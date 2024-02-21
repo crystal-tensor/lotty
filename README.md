@@ -1,4 +1,4 @@
-Quantum Monte Carlo Lottery Algorithm
+量子蒙特卡洛乐透算法
 
 介绍
 本项目展示了一种基于量子蒙特卡洛算法的彩票号码生成与预测方法。该算法结合了量子计算的先进理念与传统的随机数生成方法，旨在探索量子计算在日常应用中的潜能。
@@ -43,7 +43,49 @@ lottery_draws = generate_lottery_numbers_qmc_parallel(10000)
 
 捐赠方式
 
-支持微信方式和支付宝方式: 
+支持微信方式和支付宝方式(在页面最末尾): 
+Quantum Monte Carlo Lottery Algorithm
+
+Introduction: This project showcases a lottery number generation and prediction method based on the quantum Monte Carlo algorithm. This algorithm combines the advanced concepts of quantum computing with traditional random number generation methods, aiming to explore the potential of quantum computing in everyday applications.
+
+Features:
+
+Quantum-Driven: The core of the algorithm is based on the quantum Monte Carlo method, utilizing the principles of quantum computing to enhance randomness.
+
+Hardware Parallelism: Implemented to be compatible with parallel computing, allowing for more efficient computations on hardware that supports parallel processing.
+
+Software Optimization: Uses the NumPy library for efficient statistical analysis and data processing.
+
+Simulator Foundation: The current version is based on a quantum simulator, laying the groundwork for future applications on real quantum computers.
+
+Open Source and Free: The project is completely open-source and freely available to all individuals and groups interested in quantum computing.
+
+Application Scenarios: While the generation of lottery numbers is used as an example, the implementation methods and principles of this project can be extended to other areas requiring strong randomness support.
+
+Donation Support:
+
+The project is entirely open-source and free, but we welcome and appreciate any form of donation. Your support will be directly used for further research on the VQE (Variational Quantum Eigensolver) algorithm and other advanced quantum algorithms based on real quantum computers.
+
+How to Use:
+
+Copy the code to your own computer and run the following command in the terminal under Linux, macOS, or Windows:
+
+python alloy61.py
+
+Notes:
+
+1: Modify the total number of predictions needed, as shown in the code below:
+
+print("Predicted total sales:", num_draws_lucky)
+lottery_draws = generate_lottery_numbers_qmc_parallel(10000)
+
+Replace 10000 with num_draws_lucky after copying. num_draws_lucky is the program's prediction of the total number of lottery tickets sold for each drawing, which can be adjusted according to the situation.
+
+2: alloy61.py is for single-core CPU computation, and it is expected to take 17 days to complete one calculation. Parallel computation source code requires separate payment, and parallel computation takes 12-20 hours to complete, with varying times based on individual computer configurations.
+
+Donation Methods:
+
+We support donation methods via WeChat and Alipay.
 
 ![image](https://github.com/crystal-tensor/lotty/assets/29765585/3974e661-0377-4204-887c-95ca09a8ebe0)
 
